@@ -1,0 +1,15 @@
+<div class="container" #container1>
+  <div class="subContainer">
+    <div class="div1">
+      <div class="red" (click)="selectColor('red')">Red</div>
+      <div class="blue" (click)="selectColor('blue')">Blue</div>
+    </div>
+    <div class="div2" #colorFlipperDiv (click)="randomColorGenerator()">
+      <h1>Color Flipper</h1>
+    </div>
+    <div class="div3">
+      <div class="green" (click)="selectColor('green')">Green</div>
+      <div class="yellow" (click)="selectColor('yellow')">Yellow</div>
+    </div>
+  </div>
+</div>
